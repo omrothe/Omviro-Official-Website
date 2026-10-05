@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b18">
+  <meta name="description" content="Omviro builds thoughtful websites, software, digital products and learning experiences for businesses and students.">
+  <title>Omviro — Technology that moves you forward</title>
+  <link rel="icon" href="assets/omviro-logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Omviro home">
+        <img class="brand-logo" src="assets/omviro-logo.jpeg" alt="Omviro logo" width="42" height="42">
+        <span class="brand-name">omviro<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#store">Store</a>
+        <a href="#academy">Academy</a>
+        <a href="#about">About</a>
+        <a href="#account" id="accountNav">Login / Orders</a>
+        <button class="cart-nav" id="cartOpen" type="button">Cart <span id="cartCount">0</span></button>
+        <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> DIGITAL PRODUCTS · SOFTWARE · LEARNING</div>
+        <h1>Ideas into impact.<br><span class="gradient-text">Built for what’s next.</span></h1>
+        <p class="hero-description">We’re building a more useful digital world with thoughtful software, modern web experiences and learning tools for businesses and students.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Start a project <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#products">Explore our work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-avatars" aria-hidden="true"><span>O</span><span>V</span><span>+</span></div>
+          <p><strong>Curiosity first.</strong><br><span>Built with purpose, designed for people.</span></p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract digital product dashboard illustration">
+        <div class="orbit orbit-large"></div><div class="orbit orbit-small"></div>
+        <div class="visual-glow"></div>
+        <div class="dashboard-card">
+          <div class="dashboard-top"><div class="window-dots"><i></i><i></i><i></i></div><span>OMVIRO / STUDIO</span><span class="live-label">● LIVE CONCEPT</span></div>
+          <div class="dashboard-body">
+            <div class="dash-heading"><span class="tiny-label">YOUR NEXT CHAPTER</span><span class="dash-icon">✳</span></div>
+            <h3>Make room<br>for better ideas.</h3>
+            <p>Digital experiences that make a difference.</p>
+            <div class="dash-bars"><span style="--bar:48%"></span><span style="--bar:75%"></span><span style="--bar:58%"></span><span style="--bar:91%"></span><span style="--bar:68%"></span><span style="--bar:100%"></span><span style="--bar:80%"></span><span style="--bar:62%"></span></div>
+            <div class="dash-footer"><span><i class="mini-dot"></i> Product thinking</span><span>01 / 04</span></div>
+          </div>
+        </div>
+        <div class="float-chip chip-code"><span class="chip-icon">⌘</span><span><b>Software</b><small>Made purposeful</small></span></div>
+        <div class="float-chip chip-learn"><span class="chip-icon">✦</span><span><b>Learning</b><small>Built to grow</small></span></div>
+        <div class="hero-index">OV / 001</div>
+      </div>
+      <a class="scroll-cue" href="#services"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="ticker" aria-label="Omviro focus areas"><div class="ticker-track">
+      <span>WEB DEVELOPMENT <b>✳</b></span><span>SOFTWARE SOLUTIONS <b>✳</b></span><span>EDUCATION TECHNOLOGY <b>✳</b></span><span>DIGITAL PRODUCTS <b>✳</b></span><span>WEB DEVELOPMENT <b>✳</b></span><span>SOFTWARE SOLUTIONS <b>✳</b></span><span>EDUCATION TECHNOLOGY <b>✳</b></span>
+    </div></section>
+
+    <section class="section container" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">WHAT WE CAN BUILD</p><h2>Technology, with <span class="gradient-text">intention.</span></h2></div>
+        <p class="section-intro">From mobile apps and online ordering to business management software, we build practical digital solutions around your needs.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><div class="card-icon purple-icon">⌘</div><span class="card-number">01 / DIGITAL</span><h3>Websites &amp; Web Apps</h3><p>Responsive business websites, landing pages, dashboards and web portals that help customers find you online.</p><a href="#contact" class="text-link" data-service="Website and web app development">Discuss a website <span>↗</span></a></article>
+        <article class="service-card featured-card"><div class="card-icon blue-icon">◈</div><span class="card-number">02 / SOFTWARE</span><h3>Custom Business Software</h3><p>Software built around your workflow, from record management and staff portals to reporting and automation.</p><a href="#contact" class="text-link" data-service="Custom business software development">Discuss software <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon pink-icon">✳</div><span class="card-number">03 / MOBILE</span><h3>Mobile App Development</h3><p>Plan and build Android-focused or cross-platform apps for customers, teams, services and growing ideas.</p><a href="#contact" class="text-link" data-service="Mobile app development">Build an app <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon blue-icon">🛒</div><span class="card-number">04 / COMMERCE</span><h3>Online Ordering &amp; E-commerce</h3><p>Product catalogues, order forms, customer ordering portals and online stores for shops and service businesses.</p><a href="#contact" class="text-link" data-service="Online ordering or e-commerce software">Discuss online ordering <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon purple-icon">▦</div><span class="card-number">05 / OPERATIONS</span><h3>Billing &amp; Inventory Systems</h3><p>Tools for product stock, sales records, invoices and simple business reports—planned around your needs.</p><a href="#contact" class="text-link" data-service="Billing and inventory software">Improve shop management <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon pink-icon">◷</div><span class="card-number">06 / BOOKINGS</span><h3>Booking &amp; Management Apps</h3><p>Appointment booking, service requests, class or academy management, attendance and scheduling tools.</p><a href="#contact" class="text-link" data-service="Booking or management app">Plan a management app <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon blue-icon">✳</div><span class="card-number">07 / LEARNING</span><h3>Education Platforms</h3><p>Student portals, online exams, results, course pages and practice tools for classes and learning communities.</p><a href="#contact" class="text-link" data-service="Education platform development">Explore education software <span>↗</span></a></article>
+        <article class="service-card"><div class="card-icon purple-icon">⚙</div><span class="card-number">08 / SUPPORT</span><h3>Updates &amp; Maintenance</h3><p>Bug fixes, feature improvements, performance checks and ongoing support for existing websites and apps.</p><a href="#contact" class="text-link" data-service="Website or software maintenance">Get support <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">THE PRODUCT PLAYGROUND</p><h2>Ideas taking <span class="gradient-text">shape.</span></h2></div>
+          <p class="section-intro">A look at concepts and projects that represent the kind of useful digital experiences we want to create.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card product-bus"><div class="product-art bus-art"><div class="map-line line-a"></div><div class="map-line line-b"></div><div class="map-line line-c"></div><div class="map-pin pin-a">●</div><div class="map-pin pin-b">●</div><div class="route-pill">ROUTE CONNECTED <span>↗</span></div><div class="mini-bus">▰</div></div><div class="product-info"><div><span class="product-type">MOBILITY · CONCEPT</span><h3>SmartBus</h3></div><span class="product-arrow">↗</span><p>A concept for bus tracking, route discovery and simpler ticket-booking journeys.</p><span class="status-tag"><i></i> Concept project</span></div></article>
+          <article class="product-card product-exam"><div class="product-art exam-art"><div class="exam-window"><div class="exam-window-top"><span></span><span></span><span></span><b>EXAM / 01</b></div><div class="exam-progress"><i></i></div><div class="exam-question">Which idea will you<br><em>build next?</em></div><div class="exam-option selected"><b>A</b> Learn by doing <span>✓</span></div><div class="exam-option"><b>B</b> Keep exploring</div><div class="exam-submit">CONTINUE <span>→</span></div></div></div><div class="product-info"><div><span class="product-type">EDTECH · CONCEPT</span><h3>ExamPro</h3></div><span class="product-arrow">↗</span><p>A concept for online exams, result summaries and a clearer student experience.</p><span class="status-tag"><i></i> Concept project</span></div></article>
+        </div>
+        <p class="fine-print">SmartBus and ExamPro are presented as concepts/portfolio projects, not as live commercial services.</p>
+      </div>
+    </section>
+
+
+    <section class="section container store-section" id="store">
+      <div class="section-heading"><div><p class="eyebrow">OMVIRO DIGITAL STORE</p><h2>Products to <span class="gradient-text">get started.</span></h2></div><p class="section-intro">Explore our sample products and request a quote for a custom website, app, or business system.</p></div>
+      <div class="store-grid">
+        <article class="store-card"><div class="store-icon">⌘</div><span class="product-type">WEBSITE PACKAGE</span><h3>Business Website</h3><p>Responsive website for a shop, startup, portfolio, or local business.</p><div class="store-price">From ₹5,000</div><button class="button button-primary add-cart" data-id="website" data-name="Business Website" data-price="5000">Add to cart</button></article>
+        <article class="store-card"><div class="store-icon">▦</div><span class="product-type">BUSINESS SOFTWARE</span><h3>Billing & Inventory</h3><p>Plan a shop system for stock, billing, customers, and reports.</p><div class="store-price">From ₹8,000</div><button class="button button-primary add-cart" data-id="billing" data-name="Billing & Inventory Software" data-price="8000">Add to cart</button></article>
+        <article class="store-card"><div class="store-icon">▣</div><span class="product-type">APP DEVELOPMENT</span><h3>Custom Mobile App</h3><p>Discuss your Android or cross-platform app requirements and budget.</p><div class="store-price">Quote required</div><button class="button button-primary add-cart" data-id="app" data-name="Custom Mobile App Consultation" data-price="0">Request quote</button></article>
+        <article class="store-card"><div class="store-icon">↗</div><span class="product-type">CUSTOM PROJECT</span><h3>Other Software / App</h3><p>Tell us your idea for ordering, booking, education, automation, or another system.</p><div class="store-price">Quote required</div><button class="button button-primary add-cart" data-id="custom" data-name="Custom Software Consultation" data-price="0">Request quote</button></article>
+      </div>
+      <p class="fine-print">Prices are indicative starting prices, not final quotes. Cart and order features currently run as a local demo in this browser. No payment is collected.</p>
+    </section>
+
+    <section class="section container account-section" id="account">
+      <div class="account-panel"><div><p class="eyebrow">CUSTOMER & ADMIN AREA</p><h2>Keep projects<br><span class="gradient-text">moving forward.</span></h2><p class="section-intro">Create a demo customer session, review local demo orders, or open the admin dashboard.</p></div>
+      <div class="account-actions"><button class="button button-primary" id="customerLogin">Customer login / sign up</button><button class="button button-quiet" id="adminLogin">Admin demo login</button><button class="button button-quiet" id="viewOrders">My orders</button><button class="button button-quiet" id="adminDashboard" hidden>Open admin dashboard</button><p class="form-note">Demo only: browser-based login is not secure authentication. Use a backend before publishing.</p></div></div>
+      <div id="accountOutput" class="account-output" aria-live="polite"></div>
+    </section>
+
+    <section class="section container academy-section" id="academy">
+      <div class="academy-panel">
+        <div class="academy-copy"><p class="eyebrow">OMVIRO ACADEMY / IN DEVELOPMENT</p><h2>Learn a skill.<br><span class="gradient-text">Build your future.</span></h2><p>A future learning space for curious minds—designed around practical skills, guided projects and learning by doing.</p><ul class="check-list"><li><span>✓</span> Practical, project-led learning</li><li><span>✓</span> Student resources and practice</li><li><span>✓</span> A place to showcase progress</li></ul><a href="#contact" class="button button-primary" data-interest="Omviro Academy updates">Get academy updates <span>↗</span></a></div>
+        <div class="academy-art"><div class="academy-orb orb-one"></div><div class="academy-orb orb-two"></div><div class="academy-tile tile-main"><span class="tile-symbol">✳</span><small>YOUR LEARNING JOURNEY</small><strong>Curiosity →<br>Capability</strong><div class="tile-progress"><span></span></div><small>ONE STEP AT A TIME</small></div><div class="academy-tile tile-float"><span>✦</span><div><b>Keep building</b><small>Small steps count.</small></div></div><div class="academy-spark spark-one">✧</div><div class="academy-spark spark-two">✳</div></div>
+      </div>
+    </section>
+
+    <section class="section container about-section" id="about">
+      <div class="about-left"><p class="eyebrow">A LITTLE ABOUT US</p><h2>Big ideas start<br>with <span class="gradient-text">good questions.</span></h2></div>
+      <div class="about-right"><p>Omviro is an emerging technology brand with a simple ambition: make digital tools feel more useful, approachable and human. We’re exploring software, web experiences and education technology—one thoughtful project at a time.</p><p class="about-note"><span class="about-star">✳</span> <span><strong>Our approach</strong><br>Start simple. Solve a real problem. Keep improving.</span></p></div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div class="contact-copy"><p class="eyebrow">HAVE AN IDEA?</p><h2>Let's make<br>something <span class="gradient-text">useful.</span></h2><p>Tell us what you’re thinking about. Share a project, a collaboration idea or a question about the future academy.</p><div class="contact-direct"><span class="contact-icon">↗</span><span><small>Prefer a direct message?</small><b>Use the inquiry form</b></span></div></div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-heading"><h3>Start a conversation</h3><p>Fields marked * are required.</p></div>
+          <label for="name">Your name *</label><input id="name" name="name" type="text" placeholder="e.g. Om Rothe" autocomplete="name" required minlength="2">
+          <label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          <label for="interest">I'm interested in *</label><select id="interest" name="interest" required><option value="">Choose a topic</option><option>Website or web app</option><option>Mobile app development</option><option>Custom business software</option><option>Online ordering or e-commerce</option><option>Billing and inventory software</option><option>Booking or management app</option><option>Education platform</option><option>Software updates and maintenance</option><option>Omviro Academy updates</option><option>Partnership or other</option></select>
+          <label for="message">A little about your idea *</label><textarea id="message" name="message" rows="4" placeholder="What would you like to build or learn?" required minlength="10"></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare inquiry <span>↗</span></button>
+          <p class="form-note">Demo form: it opens your email app if configured. No information is stored on this website.</p>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <dialog id="cartDialog" class="app-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><p class="eyebrow">YOUR CART</p><h2>Selected services</h2><div id="cartItems"></div><div class="cart-total" id="cartTotal">Total: ₹0</div><form id="checkoutForm" class="checkout-form"><label for="orderName">Your name</label><input id="orderName" required minlength="2" placeholder="Full name"><label for="orderEmail">Email or phone</label><input id="orderEmail" required placeholder="Contact detail"><label for="orderNotes">Project details</label><textarea id="orderNotes" rows="3" placeholder="Tell us what you need"></textarea><section class="payment-panel" aria-labelledby="paymentTitle"><p class="eyebrow">UPI PAYMENT</p><h3 id="paymentTitle">Scan &amp; pay the exact amount</h3><p class="form-note">Pay the amount shown below using any UPI app. Enter the exact amount shown below if your UPI app does not fill it automatically. Confirm the payee name before paying.</p><div class="payment-content"><img id="paymentQr" alt="UPI payment QR code" width="190" height="190"><div><p class="payment-amount-label">Amount to pay</p><strong id="paymentAmount" class="payment-amount">₹0</strong><p class="form-note">Payment: <strong id="paymentUpiLabel">Scan the Omviro QR</strong></p><button class="button button-quiet" id="copyUpi" type="button">Copy UPI ID</button></div></div><label for="paymentUtr">UPI transaction ID / UTR *</label><input id="paymentUtr" name="paymentUtr" required minlength="6" maxlength="40" placeholder="Enter UTR / transaction reference"><p class="form-note">Order stays PENDING until the admin verifies the payment in their UPI/bank account. Entering a UTR alone does not prove payment.</p></section><button class="button button-primary" type="submit">Submit order for payment verification</button><p class="form-note">Demo only: order/payment details stay in this browser. This page does not collect or verify payments automatically.</p></form></dialog>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><a class="brand" href="#home"><img class="brand-logo" src="assets/omviro-logo.jpeg" alt="Omviro logo" width="42" height="42"><span class="brand-name">omviro<span class="brand-dot">.</span></span></a><p>Thoughtful technology for what comes next.</p><div class="footer-links"><a href="#services">Services</a><a href="#products">Products</a><a href="#process">How we work</a><a href="#academy">Academy</a><a href="#contact">Contact</a></div></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Omviro. All rights reserved.</span><span>Made with curiosity <b>✳</b></span></div>
+    <p class="legal-note">Omviro is a planned brand. “Pvt. Ltd.” should only be used as a legal company designation after incorporation is complete. Website content and project visuals are illustrative; replace placeholders with verified business details before launch.</p>
+  </footer>
+</body>
+</html>
